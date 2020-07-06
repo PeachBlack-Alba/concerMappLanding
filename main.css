@@ -1,0 +1,17 @@
+body {
+  background-color: #18191b;
+  font-size: 0.9rem;
+}
+.bg-dark {
+  background-color: #18191b !important;
+}
+.logo {
+  max-width: 100%;
+}
+#mc_embed_signup input.email {
+  height: 80px;
+  width: auto;
+}
+#mc_embed_signup .button {
+  height: 80px;
+}

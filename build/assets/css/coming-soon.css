@@ -228,12 +228,14 @@ video {
 
 /* Sección Explora, comparte, vive */
 
-.explora,
-.vive,
-.comparte {
+.explora {
   color: white;
   font-family: "Source Sans Pro";
   font-weight: 700;
+  float: flex;
+}
+
+.explora:after {
   content: "";
   display: block;
   width: 80px;
@@ -242,4 +244,20 @@ video {
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 3px;
+}
+
+/* Falta alinear el p con el titulo  */
+#containerIntro p {
+  display: initial;
+  vertical-align: top;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  float: flex;
+}
+
+/* Seccion TRES ANDROID SIMULATOR  */
+
+.androidSection {
+  background-image: linear-gradient(136deg, #fd6559 2%, #fb2e56 100%);
 }

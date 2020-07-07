@@ -227,12 +227,17 @@ video {
 @media (min-width: 1200px) { ... } */
 
 /* Sección Explora, comparte, vive */
-
+#seccion2 {
+  background-color: black;
+  width: 100%;
+  padding: 10em;
+}
 .explora {
   color: white;
   font-family: "Source Sans Pro";
   font-weight: 700;
-  float: flex;
+
+  /* float: flex; */
 }
 
 .explora:after {
@@ -251,8 +256,9 @@ video {
   display: initial;
   vertical-align: top;
   color: white;
-  font-size: 16px;
+  font-size: 200%;
   line-height: 28px;
+  text-align: left;
   float: flex;
 }
 

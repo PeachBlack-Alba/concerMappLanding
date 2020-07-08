@@ -35,6 +35,7 @@
   </head>
 
   <body>
+    <section>
     <div class="overlay"></div>
     <video
       playsinline="playsinline"
@@ -119,10 +120,11 @@
         </div>
       </div>
     </div>
+  </section>
 
     <!-- Explora vive Comparte Section -->
-    <section>
-      <div id="seccion2" class="container-fluid container-fluid-max">
+    <section id="seccion2">
+      <div  class="container-fluid container-fluid-max">
         <div id="explora" class="row text-center py-5">
         
           <div id="containerIntro" class="col-12 col-sm-6 col-lg-4">
@@ -150,8 +152,8 @@
       </div>
     </section>
     <!-- Tres android simulator Section -->
-    <section>
-      <div class="androidSection">
+    <section class="androidSection">
+      <div >
         <div class="container-fluid container-fluid-max">
           <img src="../build/assets/img/pantalla mapa.png" alt="" />
           <img src="../build/assets/img/pantallamapa2.png" alt="" />
@@ -160,8 +162,8 @@
       </div>
     </section>
     <!-- Nosotras Section -->
-    <section>
-      <div id="nosotras"class="container-fluid container-fluid-max">
+    <section id="nosotras">
+      <div  class="container-fluid container-fluid-max">
         <div class="row">
           <div class="column">
             <h1 class="tituloNosotras">
@@ -226,46 +228,47 @@
     </section>
    
     <!-- Contáctanos Section -->
-    <section>
-      <div id="seccion3" class="container-fluid container-fluid-max">
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-      placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+    <section id="seccion3">
+      <div  class="container-fluid container-fluid-max">
+<form action="/action_page.php">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+  </select>
+
+  <label for="subject">Subject</label>
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+  <input type="submit" value="Submit">
 </form>
-</div>
 
-    </section>
-    <!-- Footer Section -->
-    <section>
-
-      <footer class="py-5 page-footer">
-        <div class="container-fluid container-fluid-max">
-          <div class="row">
-            <div class="col-12 col-md-6 footer-child copyright">...</div>
-            <div class="col-12 col-md-6 footer-child footer-links">
-              <a href="" class="mr-3">...</a>
-              <a href="">...</a>
-              <div>
-                <small>...</small>
-              </div>
-            </div>
-          </div>
+<!-- Footer Section -->
+<footer class="py-5 page-footer">
+  <div class="container-fluid container-fluid-max">
+    <div class="row">
+      <div class="col-12 col-md-6 footer-child copyright">...</div>
+      <div class="col-12 col-md-6 footer-child footer-links">
+        <a href="" class="mr-3">...</a>
+        <a href="">...</a>
+        <div>
+          <small>...</small>
         </div>
-      </footer>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
     </section>
+    
+    
 
     <div class="social-icons">
       <ul class="list-unstyled text-center mb-0">
@@ -287,7 +290,6 @@
       </ul>
     </div>
 
-    <section id=""></section>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

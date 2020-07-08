@@ -336,14 +336,24 @@ video {
   border-radius: 5px;
 }
 
+.contactH {
+  color: white;
+}
+.contactH:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #32d3ff;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+label,
+input {
+  color: white;
+  font-size: 200%;
+}
+
 /* Seccion FOOTER */
-
-.page-footer .footer-links {
-  text-align: right;
-}
-
-@media screen and (max-width: 767px) {
-  .page-footer .footer-child {
-    text-align: center;
-  }
-}

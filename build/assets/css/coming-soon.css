@@ -359,6 +359,15 @@ input {
 .button {
   color: white;
   background-color: #32d3ff;
+  font-family: "Source Sans Pro";
+  font-size: 200%;
+  padding: 10px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  margin: 10px;
+  width: 20%;
+  height: 20%;
 }
 
 /* Seccion FOOTER */

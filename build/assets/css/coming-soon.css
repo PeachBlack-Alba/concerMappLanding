@@ -357,7 +357,8 @@ input {
 }
 
 .button {
-  color: #ffffff;
+  color: white;
+  background-color: #32d3ff;
 }
 
 /* Seccion FOOTER */

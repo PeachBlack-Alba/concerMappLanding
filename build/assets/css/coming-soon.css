@@ -367,6 +367,15 @@ textarea {
   resize: none;
 }
 
+#error_message {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #32d3ff;
+  text-align: center;
+  font-size: 150%;
+  transition: all 0.5s ease;
+}
+
 .button {
   color: white;
   background-color: #32d3ff;

@@ -229,8 +229,10 @@
    
     <!-- Contáctanos Section -->
     <section id="seccion3">
-<form id="myform" method="POST" data-email="redes@concertmapp.com" action="https://script.google.com/macros/s/AKfycbyDG-ccpnVfj7fKGf1ctUeOVZAsHhibITgJ9YO1JA/exec">
+<form onsubmit="return validation()" id="myform" method="POST" data-email="redes@concertmapp.com" action="https://script.google.com/macros/s/AKfycbyDG-ccpnVfj7fKGf1ctUeOVZAsHhibITgJ9YO1JA/exec">
   <h1 class="contactH">Contáctanos</h1>
+      <div id="error_message"></div>
+
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="Nombre">Nombre</label>
@@ -242,7 +244,6 @@
     </div>
   </div>
   <div class="form-group">
-    <div id="error_message"></div>
     <label for="soy">Soy</label>
     <input type="text" class="form-control" id="soy" placeholder="Músico, banda..." required>
   </div>
